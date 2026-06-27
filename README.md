@@ -1,6 +1,6 @@
 # TP de Visualización de Datos
 
-Análisis y visualización geoespacial de datos educativos de Argentina: distribución de establecimientos, matrícula escolar y conectividad a internet, integrando datos del Relevamiento Anual (RA) del Ministerio de Educación con capas geoespaciales (Georef/IGN).
+Análisis y visualización geoespacial de datos educativos de Argentina: distribución de establecimientos, matrícula escolar y conectividad a internet, integrando datos del Relevamiento Anual del Ministerio de Educación con capas geoespaciales.
 
 ## Cómo correrlo
 
