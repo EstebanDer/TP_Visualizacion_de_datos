@@ -5,8 +5,31 @@ Análisis y visualización geoespacial de datos educativos de Argentina: distrib
 
 ## Cómo correrlo
 
-Después, abrí el notebook `TP_Visualizacion_datos.ipynb` con Jupyter o GoogleColab y ejecutá todas las celdas en orden. La primera celda instala automáticamente cualquier dependencia faltante.
+Requiere **Python 3.11**
 
+### 1. Crear y activar un entorno virtual
+
+```bash
+py -3.11 -m venv .venv
+```
+
+**Windows (PowerShell):**
+```powershell
+.venv\Scripts\activate
+```
+
+Vas a ver `(.venv)` al principio de la línea de comandos cuando esté activado correctamente.
+
+### 2. Instalar las dependencias
+
+Con el entorno activado:
+```bash
+pip install -r requirements.txt
+```
+
+Esto instala las versiones exactas de cada librería (pandas, geopandas, folium, etc.) que se usaron para armar el TP, evitando errores por incompatibilidad de versiones entre distintas máquinas.
+
+### 3. Abrir y correr el notebook
 
 ## Fuentes de datos
 
